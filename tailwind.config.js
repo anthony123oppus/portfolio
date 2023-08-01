@@ -28,9 +28,18 @@ module.exports = {
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
+        hero: 'url("/hero-bg.jpg")',
+        transition: 'url("/transition1.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
+        lightblue: 'url(/color-bg.svg)',
+        darkblue: 'url(/darkblue-bg.svg)',
+        active: 'url(/active-bg.svg)',
+        preview: 'url(/top-mes.svg)',
+      },
+      keyframes: {
+
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
