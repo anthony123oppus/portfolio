@@ -21,8 +21,7 @@ const Services = () => {
           <motion.h2 variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='h2 xl:mt-8 z-10 bg-gradient-to-br from-accent to-black text-transparent bg-clip-text'>
             Services Offer <span className='text-white'></span></motion.h2>
           <motion.p variants={fadeIn('up', 0.4)} initial='hidden' animate='show' exit='hidden' className='mb-4 text-lg  max-w-[400px] mx-auto lg:mx-0'>
-          You can also use variant modifiers to target media queries like responsive breakpoints,
-           dark mode, prefers-reduced-motion, and more.
+          In the realm of front-end enchantment, my services offer a gateway to extraordinary digital experiences.
           </motion.p>
         </div>
         <motion.div variants={fadeIn('left', 0.4)} initial='hidden' animate='show' exit='hidden' className='w-full xl:max-w-[70%]'>

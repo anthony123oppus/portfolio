@@ -9,7 +9,7 @@ import { EarthCanvas } from "./canvas";
 
 const FormContact = () => {
   return (
-    <div className="container mx-auto py-32 text-center xl:text-left h-full flex items-center justify-center h-full mt-2 xl:bg-black/10 rounded-xl">
+    <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full mt-2 xl:bg-black/10 rounded-xl">
       <div className='absolute h-20 w-20 xl:h-40 xl:w-40 rounded-full bg-preview bg-cover rotate-90 top-[130px] right-2 xl:bottom-[525px] xl:left-[370px]'></div>
       <div className='absolute  xl:h-40 xl:w-40 rounded-full bg-active xl:bottom-[95px] xl:right-[410px]'></div>
         <motion.div variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='flex flex-col w-full max-w-[700px] bg-white/20 backdrop-filter backdrop-blur-xl shadow-lg px-2 pb-4 rounded-xl xl:rounded-tr-none xl:rounded-br-none xl:rounded-tl-xl xl:rounded-bl-xl xl:px-10 xl:pb-10'>

@@ -127,8 +127,10 @@ const About = () => {
             <motion.h2 variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='h2 capitalize font-bold'>
               Captivating <span className='bg-gradient-to-br from-accent to-black text-transparent bg-clip-text'>stories</span> birth magnificent designs.
             </motion.h2>
-            <motion.p variants={fadeIn('up', 0.6)} initial='hidden' animate='show' exit='hidden' className='max-w-[500px] mx-auto xl:mx-0 xl:mb-12 px-2 xl:px-0 xl:text-[21px]'>2 years ago, i began freelancing as a developer, Since then, I've done remote work for agencies,
-               counsulted for startups, and collaborated on digital products for businees and consumer use.</motion.p>
+            <motion.p variants={fadeIn('up', 0.6)} initial='hidden' animate='show' exit='hidden' className='max-w-[500px] mx-auto xl:mx-0 xl:mb-12 px-2 xl:px-0 xl:text-[19px]'>
+              Collaboration is my secret ingredient for success. I revel in teamwork, where collective brilliance sparks fresh ideas and 
+              pushes the boundaries of what's possible. Together, we'll create web experiences that are not only visually stunning but also
+               deeply immersive and memorable.</motion.p>
             <motion.div variants={fadeIn('up', 0.4)} initial='hidden' animate='show' exit='hidden' className='mb-4 md:max-w-xl xl:max-w-none max-auto xl:mx-0'>
               <div className='flex flex-1 gap-x-6'>
                 <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>

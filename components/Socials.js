@@ -45,7 +45,7 @@ export const socialMedia = [
 const Socials = () => {
   return (
     <div>
-      <div className='absolute relative -top-2 xl:bg-white xl:w-50 xl:h-[4px] xl:mt-[80px] rounded-xl group hover:bg-accent'></div>
+      <div className='relative -top-2 xl:bg-white xl:w-50 xl:h-[4px] xl:mt-[80px] rounded-xl group hover:bg-accent'></div>
       <div className='flex justify-center items-center gap-x-5 '>
         {/* <Link href={''} className='hover:text-accent transition-all duration-300'>
           <RiTwitterFill />
@@ -59,7 +59,7 @@ const Socials = () => {
                       >
                         <div>{link.icon}</div>
                         <div className='xl:opacity-0 xl:border-solid xl:border-b-accent xl:border-b-8 xl:border-x-transparent
-                         xl:border-x-[5px] xl:border-t-0 xl:absolute xl:-top-[9px] xl:left-[7px] group-hover:opacity-[100%] group-hover:border-acccent'></div>
+                         xl:border-x-[5px] xl:border-t-0 xl:absolute xl:-top-[9px] xl:left-[7px] group-hover:opacity-[100%] group-hover:border-acccent transition-all duration-300'></div>
                       </Link>
                 );
               })}

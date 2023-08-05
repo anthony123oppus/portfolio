@@ -5,18 +5,18 @@ import Image from 'next/image';
 export const EducationAttain = [
     {
       name: 'BISU',
-      path: '/',
+      path: 'https://www.facebook.com/bisuofficail?mibextid=ZbWKwL',
       icon: '/bisu-icon.png',
     },
     {
       name: 'BNHS',
-      path: '/',
-      icon: '/bisu-icon.png',
+      path: 'https://www.facebook.com/bilarhigh?mibexit=ZbWKwL',
+      icon: '/bnhs-icon.jpg',
     },
     {
       name: 'DES',
-      path: '/',
-      icon: '/bisu-icon.png',
+      path: 'https://www.facebook.com/profile.php?id=1000640619831&mibextid=ZbWKwL',
+      icon: '/des-icon.jpg',
     },
   ]
 
