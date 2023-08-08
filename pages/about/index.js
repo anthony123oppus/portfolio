@@ -22,7 +22,7 @@ import {
 } from 'react-icons/si';
 
 //  data
-export const aboutData =  [
+const aboutData =  [
   {
     title: 'skills',
     info: [
